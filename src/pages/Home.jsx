@@ -4,7 +4,7 @@ function Home() {
     return (
         <>
             <Header />
-            <h1>Início</h1>
+            <h1>Página Inicial...</h1>
         </>
     )
 }
