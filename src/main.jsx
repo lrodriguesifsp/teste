@@ -9,7 +9,7 @@ import About from './pages/About'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/teste'>
       <Routes>
         <Route index element={<Home />} />
         <Route path="sobre" element={<About />} />
